@@ -1,10 +1,12 @@
 class Song
   def new_name=(name)
-    @name = name
+    @new_name = name
   end
   
-  def artist=(artist)
-    @artist = artist
+  def new_artist=(artist)
+    @new_artist = artist
   end
   
-  def genfre
+  def new_genre=(genre)
+    @new_genre=genre
+  end
