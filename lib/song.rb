@@ -35,5 +35,5 @@ class Song
     @@artist_count[x] = @@artists.count(x)
   end
     @@artists_count
-end
+  end
 end
