@@ -23,4 +23,7 @@ class Song
     @@artists.uni
   end
   
+  def self.artist_count
+    @@artists.each do |x|
+    
 end
