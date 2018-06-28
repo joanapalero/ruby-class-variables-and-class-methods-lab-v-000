@@ -19,16 +19,17 @@ class Song
     @@genres.unique
   end
   
+  def self.artists
+    @@artists.unique
+  end
+  
   def self.genre_count
     @@genres.each do |x|
       @@genre_count[x] = @@genres.count(x)
     end
     @@genre_count
   end
-  
-  def self.artists
-    @@artists.unique
-  end
+
   
   def self.artist_count
     @@artists.each do |x|
