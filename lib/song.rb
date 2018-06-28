@@ -19,5 +19,8 @@ class Song
     @@genres.uni
   end
   
+  def self.artists
+    @@artists.uni
+  end
   
 end
