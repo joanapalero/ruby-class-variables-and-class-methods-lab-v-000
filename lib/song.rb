@@ -10,3 +10,4 @@ class Song
   def new_genre=(genre)
     @new_genre=genre
   end
+end
