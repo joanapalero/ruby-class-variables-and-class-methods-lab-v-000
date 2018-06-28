@@ -1,2 +1,4 @@
-def song
-end
+class Song
+  def song
+    {new.
+  end
