@@ -1,5 +1,5 @@
 class Song
-  def name=(name)
+  def new_name=(name)
     @name = name
   end
   
@@ -7,3 +7,4 @@ class Song
     @artist = artist
   end
   
+  def genfre
